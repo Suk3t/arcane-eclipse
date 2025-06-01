@@ -1,3 +1,27 @@
-# Godot 4+ specific ignores
-.godot/
-/android/
+# Godot-specific
+.import/
+export.cfg
+export_presets.cfg
+*.import
+*.godot
+/addons/
+/art/
+/levels/
+/scene/
+
+# OS/filesystem stuff
+.DS_Store
+Thumbs.db
+
+# Temporary/IDE files
+*.tmp
+*.log
+
+# Optional: Ignore binary assets if desired
+# *.png
+# *.jpg
+# *.wav
+# *.ogg
+# *.mp3
+
+

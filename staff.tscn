@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://cohes2u066mmn"]
+
+[ext_resource type="Texture2D" uid="uid://8ak5bad25ka2" path="res://art/staff/Pack 1/2px/27a.png" id="1_kaih6"]
+[ext_resource type="Script" uid="uid://citb6pfwjs0ac" path="res://staff.gd" id="1_ycvyx"]
+
+[node name="Staff" type="Node2D"]
+script = ExtResource("1_ycvyx")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(1, 0)
+rotation = 1.5708
+scale = Vector2(0.315789, 0.371795)
+texture = ExtResource("1_kaih6")

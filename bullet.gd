@@ -1,9 +1,16 @@
 extends Area2D
+class_name Bullet
 
-
+@export var damage: int = 1
 @export var speed := 200.0
+
 var direction := Vector2.ZERO
 var origin = global_position
+
+
+
+func _ready():
+	add_to_group("bullets")
 
 
 func _process(delta):
